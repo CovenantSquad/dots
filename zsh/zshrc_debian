@@ -1,0 +1,19 @@
+# Created by newuser for 5.9
+# .zshrc personal config for Debian
+
+## Exports
+export PATH="$PATH:/usr/local/bin"
+
+## Aliases
+alias cls=clear
+alias appadd="apt install"
+alias dnf="apt"
+alias pacman="apt"
+alias ls=lsd
+alias dir=lsd
+alias diskpart=partitionmanager
+alias open="dolphin ."
+
+## Display the same prompt as macOS
+PROMPT="%n@%m %1~ %# "
+
