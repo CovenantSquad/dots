@@ -1,0 +1,17 @@
+# .zprofile personal config for macOS
+
+## Exports
+export PATH="$PATH:/usr/local/bin"
+
+## Aliases
+alias cls=clear
+alias appadd="brew install"
+alias ls=lsd
+alias dir=lsd
+alias lsblk="diskutil list"
+alias apt="brew"
+alias dnf="brew"
+alias diskpart="open /System/Applications/Utilities/Disk\ Utility.app/Contents/MacOS/Disk\ Utility"
+ 
+# Fixes issue with some scripts while hopefully not breaking anything
+alias python=python3
