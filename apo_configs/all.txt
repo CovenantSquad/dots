@@ -1,0 +1,15 @@
+Device:  Cuffie High Definition Audio Device {066f37e5-b414-4bae-a6c2-fbc614367465}
+Preamp: -5.7 dB
+Filter: ON PK Fc 68 Hz Gain -5.3 dB Q 0.65
+Filter: ON LSC Fc 105 Hz Gain 6.5 dB Q 0.71
+Filter: ON PK Fc 1480 Hz Gain 1.9 dB Q 2.0001
+Filter: ON PK Fc 2620 Hz Gain -1.4 dB Q 2.0001
+Filter: ON HSC Fc 3500 Hz Gain 3.5 dB Q 0.71
+Filter: ON PK Fc 5560 Hz Gain -7.6 dB Q 5
+Filter: ON PK Fc 7450 Hz Gain -4.4 dB Q 2.2
+Filter: ON HSC Fc 11000 Hz Gain -6 dB Q 0.71
+Device: ⠀ Razer Kraken TE - Game {c94643ab-82ed-4f00-badf-350457006a84}
+GraphicEQ: 25 -1.2; 40 -1.2; 63 -6.3; 100 -11.3; 160 -7.8; 250 -6.6; 400 -13; 630 -11.9; 1000 -8.2; 1600 -4.2; 2500 -4.2; 4000 -4.2; 6300 -7; 10000 -9.1; 16000 -8.08
+Device: 5 - LG ULTRAWIDE AMD High Definition Audio Device {8a9d5b55-aeb2-4035-9215-9d0f67384964}
+Preamp: -5.1 dB
+GraphicEQ: 25 0.1; 40 0.1; 63 1.3; 100 1.6; 160 1.3; 250 2.4; 400 3.4; 630 2.7; 1000 3.8; 1600 5.2; 2500 5.2; 4000 2; 6300 -2.4; 10000 4.1; 16000 -0.4
