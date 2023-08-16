@@ -1,0 +1,19 @@
+# Created by newuser for 5.9
+# .zshrc personal config for Debian
+
+## Exports
+export PATH="$PATH:/usr/local/bin"
+export CHROME_EXECUTABLE=/var/lib/flatpak/app/com.google.Chrome/current/active/export/share/applications/com.google.Chrome.desktop
+## Aliases
+alias cls=clear
+alias appadd="sudo pacman -S"
+alias apt="pacman -S"
+alias dnf="pacman -S"
+alias ls=lsd
+alias dir=lsd
+alias diskpart=partitionmanager
+alias open="dolphin ."
+
+## Display the same prompt as macOS
+PROMPT="%n@%m %1~ %# "
+
