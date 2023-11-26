@@ -1,0 +1,73 @@
+*{
+    border: none;
+    border-radius: 0px;
+    font-family: "Inconsolata";
+    font-size: 12px;
+    min-height: 0;
+    color: #ebdbb2;
+}
+*:hover {
+    background-color: #7c6f64;
+}
+
+window#waybar {
+    background: #1d2021;
+}
+
+#workspaces, #clock, #custom-music, #window { 
+    font-weight: 800;
+}
+
+/* Workspace Buttons */
+
+#workspaces button label{
+    color: #689d6a;
+}
+#workspaces button.focused label {
+    color: #1d2021;
+}
+#workspaces button.focused {
+    background: #689d6a; 
+}
+
+#mode {
+    background-color: #cc241d;
+    color: white;
+}
+
+/* Right */
+
+#network.ethernet {
+    margin-top: 3;
+    margin-bottom: 3;
+    padding: 4 3 4 3;
+    background-color: #504945;
+    border-radius: 2;
+}
+
+#pulseaudio, #network, #memory, #language, #backlight, #tray{
+    margin: 0 12 0 12;
+}
+
+#temperature {
+   margin-left: 5;
+}
+
+#language {
+   border-radius: 4;
+   padding: 4 3 4 3;
+   margin: 3 0 3 0;
+   background-color:  #504945;
+}
+
+#battery {
+   padding: 4 3 4 3;
+   margin: 3 5 3 6;
+} #battery.charging {
+    background-color: #689d6a;
+    border-radius: 2;
+} #battery.warning, #battery.critical {
+    background-color: #cc241d;
+    border-radius: 2;    
+}
+
